@@ -68,7 +68,7 @@ def fight(enemy):
         if hp <= 0:
           break
 
-def africanamericansmith():
+def blacksmith():
     global hp,annoyed
     print('You are in the blacksmith\'s quarters.\nYou see a blacksmith with a key looped around his belt. You notice he is hard at work smithing at incredible speeds. He most likely won\'t see you reach for it.\n')
     time.sleep(3)
@@ -403,7 +403,7 @@ right? Walked right into that Imperial ambush, same as us, and that thief over t
           kitchen()
 
       if str.lower(choice) == 'c':
-          africanamericansmith()
+          blacksmith()
   print('You exit the dungeon and a guard spots you trying to escape.')
   print(r'''              ,
      __  _.-"` `'-.
